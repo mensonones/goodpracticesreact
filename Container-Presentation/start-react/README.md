@@ -1,16 +1,22 @@
-# start-react
+# Container-Presentation
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/4fda8f2199e0424b9f140ae79a8b7fde)](https://www.codacy.com/app/mensones-1/start-react?utm_source=github.com&utm_medium=referral&utm_content=mensonones/start-react&utm_campaign=Badge_Grade)
-[![Maintainability](https://api.codeclimate.com/v1/badges/027dbbdbd0f71bd9b046/maintainability)](https://codeclimate.com/github/mensonones/start-react/maintainability)
-[![CircleCI](https://circleci.com/gh/mensonones/start-react.svg?style=svg)](https://circleci.com/gh/mensonones/start-react)
-[![Known Vulnerabilities](https://snyk.io/test/github/mensonones/start-react/badge.svg?targetFile=package.json)](https://snyk.io/test/github/mensonones/start-react?targetFile=package.json)
-![Sonar Report](https://sonarcloud.io/api/project_badges/measure?project=mensonones_start-react&metric=alert_status)
+<span>In this pattern, we can divide our component into two smaller parts, separating their responsibilities.</span>
 
-Start Project: React + Webpack 4
+## Container
+<ul>
+   <li> Deal with the logic and behavior of the application </li>
+   <li> Make API calls and manipulate your data </li>
+   <li> Define event handlers </li>
+   <li> Are written as classes </li>
+   <li> Render presentation components </li>
+</ul>  
 
-[Project in production](https://competent-bose-0ca5a3.netlify.com/)
+## Presentation
+<ul>
+   <li> Deal with the look of the app </li>
+   <li> Receive data from proprietary components/containers as props </li>
+   <li> Are written as stateless functional components </li>
+   <li> Render HTML and/or other components </li>
+</ul>  
 
-## How to run the project
-
-First, navigate to the project folder through the terminal. After that, run the `npm install` command to install the project dependencies. After that, still in the project folder, enter the command `npm run start` to run the project. To generate the project build, simply run the `npm run build` command.
 
