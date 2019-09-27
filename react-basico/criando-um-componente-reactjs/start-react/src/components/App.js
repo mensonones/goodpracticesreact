@@ -10,7 +10,7 @@ class App extends React.Component {
     };
   }
 
-  componentDidMount() {
+  componentWillMount() {
     this.setState({
       nome: "React"
     });
